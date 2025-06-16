@@ -1,0 +1,9 @@
+body{
+    box-sizing: border-box;
+}
+
+.kotakatas p {
+text-align: center;
+box-shadow: 10 10 10 10; 
+background-color: red;   
+}
