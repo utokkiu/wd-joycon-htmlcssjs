@@ -24,7 +24,7 @@ body {
 
 .control {
     display: flex;
-    
+
     margin-top: 60px;
 
 }
@@ -36,8 +36,10 @@ body {
     background-color: red;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    
-    
+    padding-left: 10px;
+    padding-right: 10px;
+
+
 }
 
 .right {
@@ -45,6 +47,8 @@ body {
     border-bottom-right-radius: 20px;
     background-color: blue;
     padding-top: 85px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .left .horiz {
@@ -76,17 +80,19 @@ body {
 }
 
 .btn.bbc {
-    background:black;
+    background: black;
 }
 
 .btn.bbc:hover {
     box-shadow: 0 0 10px white;
     color: blue;
 }
- .btn.aab:hover{
+
+.btn.aab:hover {
     box-shadow: 0 0 10px white;
-    color:red;
- }
+    color: red;
+}
+
 .btn:active,
 .btn.pressed {
     transform: scale(0.9);
